@@ -53,23 +53,10 @@ ExportedObj/
 # Unity3D generated file on crash reports
 sysinfo.txt
 
-
 # Builds
 *.apk
 *.unitypackage
 !/[Aa]ssets/**/*.unitypackage
 
-# Crashlytics generated file
-crashlytics-build.properties
-
 # Rider settings directory
 .idea/
-
-# Firebase Remote Config file
-remote_config_data
-
-# EDM4U files
-ProjectSettings/GvhProjectSettings.xml
-Assets/Plugins/Android/androidx*
-Assets/Plugins/Android/com*
-Assets/Plugins/Android/org*
