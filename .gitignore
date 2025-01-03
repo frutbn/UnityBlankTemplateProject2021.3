@@ -8,6 +8,7 @@
 /[Mm]emoryCaptures/
 /[Rr]ecordings/
 /[Uu]ser[Ss]ettings/
+/[Uu][Ii][Ee]lements[Ss]chema/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
@@ -55,8 +56,27 @@ sysinfo.txt
 
 # Builds
 *.apk
+*.aab
+*.app
 *.unitypackage
+*.unitypackage.meta
 !/[Aa]ssets/**/*.unitypackage
 
 # Rider settings directory
 .idea/
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ProBuilder settings
+ProjectSettings/Packages/com.unity.probuilder/Settings.json
+
+# NuGet package files
+Packages/nuget-packages/InstalledPackages*
